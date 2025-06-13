@@ -24,7 +24,7 @@ public class Tag {
     private Long id;
 
     @NotBlank
-    @Size(min = 5, max = 25)
+    @Size(min = 1, max = 25)
     private String name;
 
     @ManyToMany(mappedBy = "tags")
